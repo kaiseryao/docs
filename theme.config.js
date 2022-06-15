@@ -4,9 +4,9 @@ export default {
   titleSuffix: ' – docs.yaokaiser.dev',
   logo: (
     <>
-      <span className="mr-2 font-extrabold hidden md:inline">Docs</span>
+      <span className="mr-2 font-extrabold hidden md:inline">Yao Kaiser</span>
       <span className="text-gray-600 font-normal hidden md:inline">
-        Yao Kaiser's Documentation
+       Documentation
       </span>
     </>
   ),
@@ -28,31 +28,31 @@ export default {
       <link
         rel="apple-touch-icon"
         sizes="180x180"
-        href="/apple-icon-180x180.png"
+        href="/docs_favicon.png"
       />
       <link
         rel="icon"
         type="image/png"
         sizes="192x192"
-        href="/android-icon-192x192.png"
+        href="/docs_favicon.png"
       />
       <link
         rel="icon"
         type="image/png"
         sizes="32x32"
-        href="/favicon-32x32.png"
+        href="/docs_favicon.png"
       />
       <link
         rel="icon"
         type="image/png"
         sizes="96x96"
-        href="/favicon-96x96.png"
+        href="/docs_favicon.png"
       />
       <link
         rel="icon"
         type="image/png"
         sizes="16x16"
-        href="/favicon-16x16.png"
+        href="/docs_favicon.png"
       />
       <meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
     </>

@@ -1,0 +1,44 @@
+# Git Guidelines
+
+In order for me and other contributors to understand how the code has changed, it is tremendously important to have clear commit messages and branch names.
+For this reason, I want to stick to these guidelines as much as possible.
+
+
+<Callout>
+  For the naming, I always use camel case (e.g. my-branch-name). [Read more here](https://en.wikipedia.org/wiki/Letter_case#Camel_case)
+</Callout>
+
+## Commit Message
+
+A commit message is composed of a title and its description (exception init).
+Just like in this code example below:
+
+`git commit -m "feature: an awesome feature"`
+
+I mainly use the following titles:
+- feature
+- init
+- fix
+- hotfix
+- style
+
+Most of the titles should be relatively self-explanatory. 
+
+## Branches Tooling
+
+If you never worked with Git (in collaboration) before, note these following things:
+- Never work directly on the `main` oder `develop` branch. Create a new branch with `git branch "<branch-name>"`
+- When pushing to the develop branch, please at least select me [kaiseryao](https://github.com/kaiseryao) as the reviewer.
+- Try to work only on the thing, you mentioned in the branch name. Try to avoid creating too "general" branch names.
+- Thank you for every contribution!
+
+For the branch titles, please use the following:
+- feature
+- fix
+- release
+
+and specify the feature/fix/release as clear as possible.
+
+For example: `git branch "feature: navbar-animation"`
+
+

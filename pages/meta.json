@@ -1,7 +1,8 @@
 {
   "index": "Introduction",
-  "get-started": "Get Started",
+  "git": "Git Guidelines",
   "features": "Features",
-  "themes": "Themes",
+  "styling": "Styling",
   "advanced": "Advanced"
+
 }
